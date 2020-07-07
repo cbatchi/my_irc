@@ -18,9 +18,9 @@ export default function SignIn () {
           <input placeholder='Room' className='joinInput mt-20' type='text' onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className='button mt-20' type='submit'>S'inscrire</button>
+          <button className='button mt-20' style={{ cursor: 'pointer'}} type='submit'>S'inscrire</button>
         </Link>
-        <p className='signature'>Designed by claude BATCHI</p>
+        <p className='signature'>&copy;Claude BATCHI, 2020</p>
       </div>
     </div>
   )
