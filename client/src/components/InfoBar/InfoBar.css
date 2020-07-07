@@ -1,0 +1,44 @@
+.infobar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #29a19c;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+.leftInnerWrap {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  color: white;
+}
+.leftInnerWrap h3 {
+  margin-left: 5%;
+}
+
+.rightInnerWrap {
+  display: flex;
+  flex: .5px;
+  justify-content: flex-end;
+  margin-right: 3%;
+}
+
+.btn-close {
+  position: relative;
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #464159;
+  color: white;
+  font-size: .8em;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  background-color: #e74c3c;
+  box-shadow: inset 0px 0px 5px #e67e22;
+}
